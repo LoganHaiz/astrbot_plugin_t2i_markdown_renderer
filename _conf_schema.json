@@ -1,0 +1,37 @@
+{
+  "render_tables": {
+    "type": "bool",
+    "description": "检测到 Markdown 表格时是否渲染为图片",
+    "default": true
+  },
+  "render_bold": {
+    "type": "bool",
+    "description": "检测到加粗语句 (**text**) 时是否渲染为图片",
+    "default": true
+  },
+  "send_original_text": {
+    "type": "bool",
+    "description": "发送图片后是否继续发送原文",
+    "default": false
+  },
+  "render_builtin_commands": {
+    "type": "bool",
+    "description": "是否将 /help 等内置指令输出渲染为图片",
+    "default": false
+  },
+  "min_table_rows": {
+    "type": "int",
+    "description": "触发表格渲染的最小行数（含表头）",
+    "default": 2
+  },
+  "min_bold_count": {
+    "type": "int",
+    "description": "触发加粗渲染的最小加粗块数",
+    "default": 3
+  },
+  "render_provider_command": {
+    "type": "bool",
+    "description": "是否将 /provider 指令输出渲染为图片",
+    "default": false
+  }
+}
