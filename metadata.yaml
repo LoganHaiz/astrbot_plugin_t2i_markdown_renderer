@@ -1,0 +1,6 @@
+name: astrbot_plugin_t2i_markdown_renderer
+display_name: Markdown T2I 渲染
+desc: "独立调用 t2i 服务将 Markdown 表格/加粗等渲染为图片，不受 AstrBot 全局 t2i 开关影响"
+version: 1.0
+author: Logan
+repo: https://github.com/LoganHaiz/astrbot_plugin_t2i_markdown_renderer
